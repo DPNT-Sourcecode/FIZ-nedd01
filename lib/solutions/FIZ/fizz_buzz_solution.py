@@ -1,4 +1,5 @@
-# noinspection PyUnusedLocal
+ # noinspection PyUnusedLocal
+
 
 
 def fizz_buzz(number):
@@ -7,15 +8,9 @@ def fizz_buzz(number):
 
     def identical(num):
 
-        str1 = num
-        str2 = num[::-1]
-        if (int(num)<10):
-            return False
-        if (str1[0]== str1[1]):
-            if (int (str1) - int(str2)==0) :
-                return True
-        else:
-            return False
+        n = int(num)
+
+        if (n%3 ==0 and '3' in num)
 
 
 
@@ -47,4 +42,5 @@ def fizz_buzz(number):
             return ('fake deluxe')
     else:
         return number
+
 
