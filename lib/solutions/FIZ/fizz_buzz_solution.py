@@ -5,7 +5,8 @@ def fizz_buzz(number):
     elif number %3==0:
         return ('fizz')
     elif number %5 ==0:
-        retunr ('buzz')
+        return ('buzz')
     else:
         return number
+
 
