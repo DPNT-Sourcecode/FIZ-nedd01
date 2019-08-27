@@ -2,7 +2,7 @@
 def fizz_buzz(number):
     # if number %3 ==0 and number%5 ==0:
     #     return ('fizz buzz')
-    if  number %3==0 and '5' in str(number) or (number %5 ==0 or '3' in str (number))  :
+    if  (number %3==0 or '3' in str(number)) and (number %5 ==0 or '5' in str (number))  :
         return ('fizz buzz')
     elif number %3==0 or '3' in str(number):
         return ('fizz')
@@ -11,6 +11,7 @@ def fizz_buzz(number):
 
     else:
         return number
+
 
 
 
