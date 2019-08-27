@@ -47,11 +47,12 @@ def fizz_buzz(number):
         return ('buzz')
     elif (number >10 and identical(str(number))):
         if (number % 2 == 0):
-            return ('fake deluxe')
-        else:
             return ('deluxe')
+        else:
+            return ('fake deluxe')
     else:
         return number
+
 
 
 
