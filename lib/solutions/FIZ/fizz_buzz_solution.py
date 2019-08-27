@@ -2,15 +2,17 @@
 
 def identical(num):
     l = len(num)
+    f = num[0]
     c = 0
     while (c<=l-1):
-        if (num[c] == num[c+1]):
-            pass
-        elif (c<=l-1 and num[c] == num[c+1]):
-            return True
+        if (num[c] == f):
+            if (c <= l - 1):
+                return True
+            c+=1
+
         else:
             return  False
-        c+=1
+
 
 
 
@@ -21,7 +23,7 @@ def fizz_buzz(number):
     if (number %3==0 or '3' in str(number)) and (number %5 ==0 or '5' in str (number)) and (number >10 and identfical(str(number))):
         return ('fizz buzz deluxe')
     elif  (number %3==0 or '3' in str(number)) and (number %5 ==0 or '5' in str (number))  :
-        return ('fizz buzz')0
+        return ('fizz buzz')
     elif number %3==0 or '3' in str(number):
         return ('fizz')
     elif number %5 ==0 or '5' in str (number) :
@@ -30,6 +32,7 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
 
 
 
