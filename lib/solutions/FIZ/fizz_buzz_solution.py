@@ -51,9 +51,3 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
-
-
-
-
-
-
