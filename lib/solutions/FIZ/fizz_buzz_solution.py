@@ -1,6 +1,6 @@
 # noinspection PyUnusedLocal
 def fizz_buzz(number):
-    if number %3 ==0 and number%5 ==0 or ('5' in str(number) and '3' in str(number) ):
+    if number %3 ==0 or number%5 ==0 or ('5' in str(number) and '3' in str(number) ):
         return ('fizz buzz')
     elif number %3==0 or '3' in str(number):
         return ('fizz')
@@ -8,3 +8,4 @@ def fizz_buzz(number):
         return ('buzz')
     else:
         return number
+
