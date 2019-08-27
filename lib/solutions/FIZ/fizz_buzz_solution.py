@@ -14,6 +14,8 @@ def fizz_buzz(number):
 
         str1 = num
         str2 = num[::-1]
+        if (int(num)<10):
+            return False
 
         if (int (str1) - int(str2)==0):
             return True
@@ -41,7 +43,7 @@ def fizz_buzz(number):
         return ('fizz deluxe')
     elif number %3==0 or '3' in str(number):
         return ('fizz')
-    elif number % 5 == 0 or '5' in str(number) and (number >10 and identical(str(number))):
+    elif (number % 5 == 0 or '5' in str(number)) and (number >10 and identical(str(number))):
         return ('buzz deluxe')
     elif number %5 ==0 or '5' in str (number) :
         return ('buzz')
@@ -49,6 +51,7 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
 
 
 
