@@ -8,6 +8,8 @@ def fizz_buzz(number):
         return ('fizz')
     elif number %5 ==0 or '5' in str (number) :
         return ('buzz')
-
+    elif (number >10 and identfical(number)):
+        return ('deluxe')
     else:
         return number
+
