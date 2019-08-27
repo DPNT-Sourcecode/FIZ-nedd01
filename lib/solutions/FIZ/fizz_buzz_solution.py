@@ -16,9 +16,9 @@ def fizz_buzz(number):
         str2 = num[::-1]
         if (int(num)<10):
             return False
-
-        if (int (str1) - int(str2)==0):
-            return True
+        if (str1[0]== str1[1]):
+            if (int (str1) - int(str2)==0) :
+                return True
         else:
             return False
 
@@ -51,6 +51,7 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
 
 
 
