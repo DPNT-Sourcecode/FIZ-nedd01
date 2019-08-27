@@ -14,5 +14,3 @@ def compute (num1, num2):
 #     print (total)
 # else:
 #     print ('Entered numbers not in range')
-
-
