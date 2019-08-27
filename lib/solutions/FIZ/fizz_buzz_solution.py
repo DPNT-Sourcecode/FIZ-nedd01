@@ -13,7 +13,7 @@ def fizz_buzz(number):
     def identical(num):
 
         str1 = num
-        str2 = num[:-1]
+        str2 = num[::-1]
 
         if (int (str1) - int(str2)==0):
             return True
@@ -45,5 +45,6 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
 
 
