@@ -52,8 +52,3 @@ def fizz_buzz(number):
             return ('fake deluxe')
     else:
         return number
-
-
-
-
-
