@@ -12,4 +12,3 @@ if num1 >=0 and num1<= 100 and num2 >=0 and num2 <=100:
     print (total)
 else:
     print ('Entered numbers not in range')
-
