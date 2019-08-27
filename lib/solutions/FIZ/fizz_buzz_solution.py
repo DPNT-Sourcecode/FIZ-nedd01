@@ -15,7 +15,7 @@ def fizz_buzz(number):
         f = num[0]
         c = 0
         while (c <= l - 1):
-            if (num[c] == f):
+            if (num[c+1] == f):
                 if (c <= l - 1):
                     return True
                 c += 1
@@ -35,3 +35,4 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
