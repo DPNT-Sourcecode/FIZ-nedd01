@@ -1,11 +1,6 @@
 # noinspection PyUnusedLocal
 
 
-
-
-
-
-
 def fizz_buzz(number):
     # if number %3 ==0 and number%5 ==0:
     #     return ('fizz buzz')
@@ -52,3 +47,4 @@ def fizz_buzz(number):
             return ('fake deluxe')
     else:
         return number
+
