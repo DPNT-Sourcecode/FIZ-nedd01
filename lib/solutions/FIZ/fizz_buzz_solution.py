@@ -23,24 +23,19 @@ def fizz_buzz(number):
             return False
 
 
-        # l = len(num)
-        # f = num[0]
-        # c = 0
-        # while (c <= l - 1):
-        #     if (num[c+1] == f):
-        #         if (c <= l - 1):
-        #             return True
-        #         c += 1
-        #
-        #     else:
-        #         return False
 
     if (number %3==0 or '3' in str(number)) and (number %5 ==0 or '5' in str (number)) and (number >10 and identical(str(number))):
-        return ('fizz buzz deluxe')
+         if (number%2==0):
+            return ('fizz buzz deluxe')
+         else:
+             return ('fizz buzz fake deluxe')
     elif  (number %3==0 or '3' in str(number)) and (number %5 ==0 or '5' in str (number))  :
         return ('fizz buzz')
     elif (number %3==0 or '3' in str(number) )and (number >10 and identical(str(number))):
-        return ('fizz deluxe')
+        if (number % 2 == 0):
+            return ('fizz deluxe')
+        else:
+            return ('fizz fake deluxe')
     elif number %3==0 or '3' in str(number):
         return ('fizz')
     elif (number % 5 == 0 or '5' in str(number)) and (number >10 and identical(str(number))):
@@ -51,3 +46,4 @@ def fizz_buzz(number):
         return ('deluxe')
     else:
         return number
+
