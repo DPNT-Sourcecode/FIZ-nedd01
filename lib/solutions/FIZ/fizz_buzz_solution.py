@@ -39,11 +39,18 @@ def fizz_buzz(number):
     elif number %3==0 or '3' in str(number):
         return ('fizz')
     elif (number % 5 == 0 or '5' in str(number)) and (number >10 and identical(str(number))):
-        return ('buzz deluxe')
+        if (number % 2 == 0):
+            return ('buzz deluxe')
+        else:
+            return ('buzz fake deluxe')
     elif number %5 ==0 or '5' in str (number) :
         return ('buzz')
     elif (number >10 and identical(str(number))):
-        return ('deluxe')
+        if (number % 2 == 0):
+            return ('fake deluxe')
+        else:
+            return ('deluxe')
     else:
         return number
+
 
